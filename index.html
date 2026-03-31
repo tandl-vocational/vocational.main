@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T&L Support 総合ポータル | 公共職業訓練・求職者支援訓練</title>
+    <meta name="description" content="沖縄県で公共職業訓練ならT&L Support。Eラーニングで場所と時間の制約を超え、現代に必要なデジタルスキルを習得。">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="https://taxlegal.jp/"><img src="images/logo.png" alt="T&Lサポート株式会社"></a>
+            </div>
+            <nav class="nav" id="main-nav">
+                <ul>
+                    <li><a href="#vision" class="nav-link">私たちの想い</a></li>
+                    <li><a href="#strengths" class="nav-link">3つの強み</a></li>
+                    <li><a href="#courses" class="nav-link">募集中の訓練</a></li>
+                    <li><a href="#flow" class="nav-link">受講の流れ</a></li>
+                    <li><a href="#faq" class="nav-link">よくあるご質問</a></li>
+                </ul>
+                <a href="#apply" class="btn-apply-header">お問い合わせ</a>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="メニューを開く">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1 class="hero-title">時間と場所にとらわれない<br>新しい「学び」のカタチ。</h1>
+                <p class="hero-text">沖縄から、次世代のデジタルスキルを。<br>Eラーニングと手厚いサポートで、あなたのキャリア形成を全力で応援します。</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">募集中のコースを見る</a>
+                    <a href="#vision" class="btn btn-outline-white">私たちの理念</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section (CMS functionality) -->
+        <section id="news" class="section-news">
+            <div class="container news-container">
+                <div class="news-inner fade-in">
+                    <div class="news-header">
+                        <h2 class="news-label">News</h2>
+                        <p class="news-caption">新着情報</p>
+                    </div>
+                    <div class="news-list" id="news-list">
+                        <!-- JS でニュースをここに挿入します -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision Section -->
+        <section id="vision" class="section bg-light">
+            <div class="container vision-container">
+                <div class="section-header text-center fade-in">
+                    <h2 class="section-title">私たちの想い</h2>
+                    <p class="section-subtitle">なぜ「Eラーニング」なのか？</p>
+                </div>
+                <div class="vision-content">
+                    <div class="vision-text fade-in">
+                        <h3>学ぶ機会の平等化と<span class="text-primary">次世代の教育手法</span>へのアップデート</h3>
+                        <p>沖縄の地理的特性や、受講生それぞれの事情（育児、仕事、介護など）によって、「学びたい」という意思が絶たれてしまう現実があります。</p>
+                        <p>T&Lサポート株式会社は、時間と場所の制約を受けない「Eラーニング」を中心に訓練を実施しています。一人ひとりの学習ペースに合わせながら、デジタル化が進む現代に適応するための実践的なスキルを提供し、キャリアの選択肢を広げます。
+                        </p>
+                    </div>
+                    <div class="vision-points fade-in">
+                        <div class="v-point">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="v-point-text">
+                                <h4>場所の制約を超えて</h4>
+                                <p>離島や遠方からでも、充実した専門教育が受けられます。</p>
+                            </div>
+                        </div>
+                        <div class="v-point">
+                            <i class="fas fa-clock"></i>
+                            <div class="v-point-text">
+                                <h4>時間の制約を超えて</h4>
+                                <p>自分のペースで進められるため、無理なく学習を継続できます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strengths Section -->
+        <section id="strengths" class="section">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <h2 class="section-title">選ばれる3つの強み</h2>
+                    <p class="section-subtitle">確実なスキル習得と就職を実現させる理由</p>
+                </div>
+                <div class="strengths-grid">
+                    <div class="strength-card fade-in">
+                        <div class="icon-circle">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>01. 実務直結のスキル</h3>
+                        <p>単なる資格取得にとどまらず、就職後の現場で即戦力となる知識やスキルを重視。生成AIや最新のクラウドツールを積極的に活用した実践的カリキュラムです。</p>
+                    </div>
+                    <div class="strength-card fade-in" style="transition-delay: 0.1s;">
+                        <div class="icon-circle">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>02. 伴走型サポート体制</h3>
+                        <p>Eラーニング特有の孤独感やモチベーション低下を防ぐため、チャットツールやWeb会議でのきめ細やかなコミュニケーションの場を提供しています。</p>
+                    </div>
+                    <div class="strength-card fade-in" style="transition-delay: 0.2s;">
+                        <div class="icon-circle">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>03. 圧倒的な実績</h3>
+                        <p>手厚いサポートと実践的カリキュラムの結果として、講座継続率・資格取得率・就職率・受講生満足度のすべてにおいて高い水準を維持しています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses / Portals Section -->
+        <section id="courses" class="section bg-light">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <h2 class="section-title">募集中の訓練コース</h2>
+                    <p class="section-subtitle">各会場の詳細ページへご案内します。ご希望の会場をお選びください。</p>
+                </div>
+                <div class="courses-grid">
+
+                    <!-- 1. Ishigaki -->
+                    <div class="course-card fade-in">
+                        <div class="course-header ishigaki-bg">
+                            <i class="fas fa-map-pin"></i>
+                            <h3>石垣会場</h3>
+                            <p class="course-header-type">【 Eラーニング型訓練 】</p>
+                        </div>
+                        <div class="course-body">
+                            <div class="status-wrap"><span class="status-badge status-active">募集中</span></div>
+                            <h4 class="course-name">デジタル経理人財養成科</h4>
+                            <p class="course-desc">生成AIとクラウド会計を活用し、バックオフィスのDXを推進するITスキルを育成します。</p>
+                            <a href="https://tandl-vocational.github.io/202606_ishigaki/" class="btn btn-outline"
+                                target="_blank" rel="noopener">
+                                詳細を見る <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 2. Nago -->
+                    <div class="course-card fade-in" style="transition-delay: 0.1s;">
+                        <div class="course-header nago-bg">
+                            <i class="fas fa-map-pin"></i>
+                            <h3>名護会場</h3>
+                            <p class="course-header-type">【 Eラーニング型訓練 】</p>
+                        </div>
+                        <div class="course-body">
+                            <div class="status-wrap"><span class="status-badge status-active">募集中</span></div>
+                            <h4 class="course-name">デジタル経理人財養成科</h4>
+                            <p class="course-desc">実践的なオンラインサポートと共に、リモートワークや現代の事務職に直結する能力を習得します。</p>
+                            <a href="https://tandl-vocational.github.io/202606_nago/" class="btn btn-outline"
+                                target="_blank" rel="noopener">
+                                詳細を見る <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 3. Chatan -->
+                    <div class="course-card fade-in" style="transition-delay: 0.2s;">
+                        <div class="course-header chatan-bg">
+                            <i class="fas fa-map-pin"></i>
+                            <h3>北谷会場</h3>
+                            <p class="course-header-type">【 通所型・企業実習付訓練 】</p>
+                        </div>
+                        <div class="course-body">
+                            <div class="status-wrap"><span class="status-badge status-active">募集中</span></div>
+                            <h4 class="course-name">税理士事務所スタッフ・経理実務科</h4>
+                            <p class="course-desc">多様なライフスタイルに合わせたEラーニングで、未来のキャリアを自分のペースで切り拓きます。</p>
+                            <a href="https://tandl-vocational.github.io/202606_chatan/" class="btn btn-outline"
+                                target="_blank" rel="noopener">
+                                詳細を見る <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Flow Section -->
+        <section id="flow" class="section">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <h2 class="section-title">受講までの流れ</h2>
+                    <p class="section-subtitle">公共職業訓練に応募する際の基本的なプロセスです</p>
+                </div>
+
+                <div class="flow-container">
+                    <div class="flow-step fade-in">
+                        <div class="flow-num">01</div>
+                        <div class="flow-icon"><i class="fas fa-building"></i></div>
+                        <div class="flow-content">
+                            <h4>ハローワークで相談・申込み</h4>
+                            <p>管轄のハローワーク窓口にて、受講に関するご相談と申し込み手続きを期間内に行ってください。</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-arrow fade-in"><i class="fas fa-arrow-down"></i></div>
+
+                    <div class="flow-step fade-in">
+                        <div class="flow-num">02</div>
+                        <div class="flow-icon"><i class="fas fa-user-check"></i></div>
+                        <div class="flow-content">
+                            <h4>選考・面接</h4>
+                            <p>面接等による選考を実施します。詳しい日程や要件は各コースの案内をご確認ください。</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-arrow fade-in"><i class="fas fa-arrow-down"></i></div>
+
+                    <div class="flow-step fade-in">
+                        <div class="flow-num">03</div>
+                        <div class="flow-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <div class="flow-content">
+                            <h4>受講決定・訓練開始</h4>
+                            <p>合格後、オリエンテーションを経てEラーニングシステムを利用した訓練がスタートします。</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-arrow fade-in"><i class="fas fa-arrow-down"></i></div>
+
+                    <div class="flow-step fade-in">
+                        <div class="flow-num">04</div>
+                        <div class="flow-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="flow-content">
+                            <h4>就職活動・内定</h4>
+                            <p>キャリアコンサルタントによる手厚い面接対策や履歴書添削で、安定した就職をサポートします。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section bg-light">
+            <div class="container faq-container">
+                <div class="section-header text-center fade-in">
+                    <h2 class="section-title">よくあるご質問</h2>
+                    <p class="section-subtitle">Eラーニング受講に関する不安にお答えします</p>
+                </div>
+
+                <div class="faq-list fade-in">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>パソコンの操作に自信がありませんが、受講できますか？</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>はい、問題ありません。基礎から丁寧にサポートする体制が整っております。チャットやWeb会議を通じて、分からないことはすぐに質問・解決できる環境をご用意していますのでご安心ください。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Eラーニングの場合、一人で学習を続けられるか不安です。</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>ご安心ください。講師やサポートスタッフが伴走し、定期的なオンライン面談や日々のチャットサポートを実施するため、孤独を感じさせない仕組みを導入しています。これが当社の高い講座継続率の理由です。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>受講時間や学習ペースは自由に決められますか？</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>原則として受講生の生活スタイルに合わせた学習が可能です。ただし、カリキュラムの進捗目安や締切等は設けられており、定期的な進捗確認を行っています。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>申し込みから選考までの具体的な手続きを教えてください。</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>公共職業訓練・求職者支援訓練は、ハローワークを通じてお申し込みいただく必要があります。まずは管轄のハローワーク窓口にて「受講のご相談」ならびに「お申し込み手続き」を行ってください。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apply CTA Section -->
+        <section id="apply" class="section cta-section bg-primary text-center">
+            <div class="container container-sm">
+                <h2 class="cta-title">お問い合わせ</h2>
+                <p class="cta-text">
+                    次のキャリアに繋がる実践的なスキルを、実績のある私たちと学びませんか？<br>
+                    受講に関するご相談や、各コースに関するご質問などお気軽にお問い合わせください。
+                </p>
+                <div class="cta-actions fade-in">
+                    <!-- Google Apps Script Link -->
+                    <a href="https://forms.gle/PWwyLLzKVfQczvbw6" class="btn btn-large btn-accent" target="_blank"
+                        rel="noopener">
+                        <i class="fas fa-envelope"></i> お問い合わせフォームへ進む
+                    </a>
+                </div>
+                <p class="cta-note"><small>※正式な受講申込みには、ハローワークでの事前手続きが必要となります。</small></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>T&Lサポート株式会社</h2>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#vision">私たちの想い</a></li>
+                        <li><a href="#strengths">強み</a></li>
+                        <li><a href="#courses">訓練コース</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#flow">受講の流れ</a></li>
+                        <li><a href="#faq">よくあるご質問</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 T&L Support All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="news-data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
