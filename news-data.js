@@ -16,41 +16,33 @@ const newsData = [
     {
         id: 1,
         date: "2026.04.01",
-        category: "募集中",
-        categoryClass: "status-active",
-        title: "令和8年6月開講「デジタル事務・会計科」の募集を開始しました（石垣・名護・北谷）。",
+        category: "イベント",
+        categoryClass: "status-info",
+        title: "4月10日にハローワーク八重山にて６月開講の説明会を開催します。",
         url: "#courses"
     },
     {
         id: 2,
-        date: "2026.03.25",
-        category: "お知らせ",
+        date: "2026.04.01",
+        category: "イベント",
         categoryClass: "status-info",
-        title: "受講生満足度調査で「非常に満足」が90%を超えました。",
-        url: "#proof"
+        title: "4月6日にハローワーク沖縄にて６月開講の説明会を開催します。",
+        url: "#courses"
     },
     {
         id: 3,
-        date: "2026.03.15",
-        category: "重要",
-        categoryClass: "status-important",
-        title: "システムメンテナンスのお知らせ（2026年4月5日 深夜2:00〜4:00）",
-        url: ""
+        date: "2026.04.01",
+        category: "募集中",
+        categoryClass: "status-active",
+        title: "令和8年度沖縄県委託訓練6月開講の募集を開始しました（石垣・名護・北谷）。",
+        url: "#courses"
     },
     {
         id: 4,
-        date: "2026.03.10",
-        category: "イベント",
-        categoryClass: "status-info",
-        title: "【オンライン】ITキャリア相談会を開催いたします（3月20日）。",
+        date: "2026.02.27",
+        category: "募集中",
+        categoryClass: "status-active",
+        title: "令和8年度求職者支援訓練4月開講の募集を開始しました（Eラーニング）",
         url: ""
     },
-    {
-        id: 5,
-        date: "2026.03.01",
-        category: "実績",
-        categoryClass: "status-active",
-        title: "令和7年度の就職率が過去最高の81%を記録しました。",
-        url: "#proof"
-    }
 ];
