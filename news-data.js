@@ -19,7 +19,7 @@ const newsData = [
         category: "イベント",
         categoryClass: "status-info",
         title: "4月10日にハローワーク八重山にて６月開講の説明会を開催します。",
-        url: "#courses"
+        url: ""
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ const newsData = [
         category: "イベント",
         categoryClass: "status-info",
         title: "4月6日にハローワーク沖縄にて６月開講の説明会を開催します。",
-        url: "#courses"
+        url: ""
     },
     {
         id: 3,
